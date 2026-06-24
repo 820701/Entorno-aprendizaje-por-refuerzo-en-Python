@@ -1,18 +1,19 @@
 # Repositorio Python
 
-Este repositorio contiene los archivos en Python utilizados para el entorno de aprendizaje por refuerzo y el entrenamiento del agente PPO del trabajo.
+Este repositorio contiene los archivos en Python utilizados para el desarrollo del aprendizaje por refuerzo del trabajo.
 
 ## Contenido
 
-- entorno personalizado compatible con Gymnasium,
-- script de entrenamiento PPO,
-- funciones de recompensa,
-- archivos de configuración y resultados auxiliares.
+Los archivos incluidos corresponden a:
+- entornos `crane` específicos de cada etapa,
+- scripts de entrenamiento (`train`),
+- scripts de evaluación (`evaluate`),
+- comparativas entre control clásico LQR y controladores PPO.
 
 ## Relación con el TFG
 
-Este repositorio complementa los modelos de MATLAB y Simulink, y recoge la implementación del control por aprendizaje por refuerzo.
+Este repositorio recoge la implementación en Python del entorno de aprendizaje por refuerzo y las comparativas realizadas con los controladores clásicos desarrollados en MATLAB y Simulink.
 
-## Uso
+## Nota
 
-Los scripts deben ejecutarse junto con los parámetros y condiciones definidos en la memoria y en los repositorios asociados.
+Aunque los archivos no se encuentran agrupados en subcarpetas, su nombre identifica la etapa o la comparación a la que pertenecen.
